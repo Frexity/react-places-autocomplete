@@ -352,7 +352,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      };
 	
 	      return _extends({}, defaultInputProps, options, {
-	        onKeyDown: (0, _helpers.compose)(_this.handleInputKeyDown, options.onKeyDown),
+	        onKeyPress: (0, _helpers.compose)(_this.handleInputKeyDown, options.onKeyDown),
 	        onBlur: (0, _helpers.compose)(_this.handleInputOnBlur, options.onBlur),
 	        value: _this.props.value,
 	        onChange: function onChange(event) {

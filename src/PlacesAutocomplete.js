@@ -280,7 +280,7 @@ class PlacesAutocomplete extends React.Component {
     return {
       ...defaultInputProps,
       ...options,
-      onKeyDown: compose(this.handleInputKeyDown, options.onKeyDown),
+      onKeyPress: compose(this.handleInputKeyDown, options.onKeyDown),
       onBlur: compose(this.handleInputOnBlur, options.onBlur),
       value: this.props.value,
       onChange: event => {
